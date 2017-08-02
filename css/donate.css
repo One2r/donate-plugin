@@ -26,6 +26,11 @@
    padding-left: 50px;
 }
 
+.reward-qrcode {
+   width: 65%;
+   height: 70%;
+}
+
 /**
  @layer css
  @Name: layer

@@ -6,6 +6,6 @@ module.exports = {
                 	<div class="article-reward-desc">您的支持将鼓励我继续创作 :)</div>\
 				</div>',
 
-	wxDonate : '<div class="width:100%"><img src="./wxpay.png"></div>\
-				<div class="">微信扫一扫</div>',
+	wxDonate : '<img class="reward-qrcode" src="'+require("../css/wxpay.png")+'">\
+				<div>微信扫一扫</div>',
 }
