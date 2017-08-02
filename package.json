@@ -1,0 +1,30 @@
+{
+  "name": "donate-plugin",
+  "version": "0.0.1",
+  "description": "支持微信、支付宝扫码支付的打赏插件",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/One2r/donate-plugin.git"
+  },
+  "keywords": [
+    "donate plugin"
+  ],
+  "author": "One2r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/One2r/donate-plugin/issues"
+  },
+  "homepage": "https://github.com/One2r/donate-plugin#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "layer-ce": "^3.0.1"
+  }
+}
