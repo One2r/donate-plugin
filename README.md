@@ -5,6 +5,7 @@
 ```
 npm install && npm run build
 ```
+在项目根目录dist/下编译出donate-plugin-x.y.z.min.js文件
 
 ## 使用
 第一步：在页面中引入jquery和donate-plugin
