@@ -1,4 +1,4 @@
-.article-reward {
+﻿.article-reward {
 	text-align: center;
 }
 
@@ -34,7 +34,7 @@
 /**
  @layer css
  @Name: layer
- @Author: ??
+ @Author: 贤心
  **/
 .layui-layer-ico{ background:url(icon.png) no-repeat;}
 .layui-layer-dialog .layui-layer-ico,
@@ -53,7 +53,7 @@
 
 .layer-anim{-webkit-animation-name: layer-bounceIn;animation-name: layer-bounceIn}
 
-/* ??? */
+/* 标题栏 */
 .layui-layer-title{padding:0 80px 0 20px; height:42px; line-height:42px; border-bottom:1px solid #eee; font-size:14px; color:#333; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background-color: #F8F8F8; border-radius: 2px 2px 0 0;}
 .layui-layer-setwin{position:absolute; right:15px; *right:0; top:15px; font-size:0; line-height: initial;}
 .layui-layer-setwin a{position:relative; width: 16px; height:16px; margin-left:10px; font-size:12px; _overflow:hidden;}
@@ -68,14 +68,15 @@
 .layui-layer-setwin .layui-layer-close2{position:absolute; right:-28px; top:-28px; width:30px; height:30px;  margin-left:0; background-position:-149px -31px; *right:-18px; _display:none;}
 .layui-layer-setwin .layui-layer-close2:hover{ background-position:-180px -31px;}
 
-/* tab?? */
+/* tab模式 */
 .layui-layer-tab{box-shadow:1px 1px 50px rgba(0,0,0,.4);}
+.layui-layer-tab li {list-style: none;}
 .layui-layer-tab .layui-layer-title{padding-left:0; border-bottom:1px solid #ccc; background-color:#eee; overflow: visible;}
 .layui-layer-tab .layui-layer-title span{position:relative; float:left; min-width:80px; max-width:260px; padding:0 20px; text-align:center; cursor:default; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
 .layui-layer-tab .layui-layer-title span.layui-layer-tabnow{height:43px; border-left:1px solid #ccc; border-right:1px solid #ccc; background-color:#fff; z-index:10;}
 .layui-layer-tab .layui-layer-title span:first-child{border-left:none;}
 .layui-layer-tabmain{line-height:24px; clear:both;}
 .layui-layer-tabmain .layui-layer-tabli{display:none;}
-.layui-layer-tabmain .layui-layer-tabli.xubox_tab_layer{width:90%;display:block;text-align: center}
+.layui-layer-tabmain .layui-layer-tabli.xubox_tab_layer{display:block;}
 .xubox_tabclose{position:absolute; right:10px; top:5px; cursor:pointer;}
 
