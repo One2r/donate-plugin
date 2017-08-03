@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "支持微信、支付宝扫码支付的打赏插件",
   "scripts": {
-    "test": "webpack",
+    "test": "webpack -p",
     "build": "webpack -p"
   },
   "repository": {
