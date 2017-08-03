@@ -11,7 +11,6 @@ $.extend({
 		if (id == undefined){
 			return;
 		}
-		console.log(options)
 		var payObj = [];
 		if(options.wxpay){
 			payObj.push({
@@ -28,7 +27,12 @@ $.extend({
 		if(payObj.length == 0 ){
 			return;
 		}
-		$(id).html(options.donateUI);
+		var donateUI = '<div class="article-reward">\
+							<div class="article-reward-desc">'+options.strive_msg+'</div>\
+							<button class="reward-btn" id="reward-btn">￥ 赞&nbsp;赏</button>\
+							<div class="article-reward-desc">'+options.think_msg+'</div>\
+						</div>';
+		$(id).html(donateUI);
 		$(id+" .reward-btn").on('click', function () {
 			layer.tab({
 				type: 1,
