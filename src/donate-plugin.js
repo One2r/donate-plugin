@@ -15,13 +15,13 @@ $.extend({
 		if(options.wxpay){
 			payObj.push({
 					title: '微信赞赏',
-					content: '<div style="text-align: center; width: 90%;"><img class="reward-qrcode" src="'+options.wxpay_qrcode+'"/><div>微信扫一扫</div><div>'
+					content: '<div style="text-align: center; width: 100%;"><img class="reward-qrcode" src="'+options.wxpay_qrcode+'"/><div>微信扫一扫</div><div>'
 			})
 		}
 		if(options.alipay){
 			payObj.push({
 					title: '支付宝赞赏',
-					content: '<div style="text-align: center; width: 90%;"><img class="reward-qrcode" src="'+options.alipay_qrcode+'"/><div>支付宝扫一扫</div><div>'
+					content: '<div style="text-align: center; width: 100%;"><img class="reward-qrcode" src="'+options.alipay_qrcode+'"/><div>支付宝扫一扫</div><div>'
 			})
 		}
 		if(payObj.length == 0 ){
